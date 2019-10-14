@@ -1,0 +1,307 @@
+/*-------- Global --------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    font-family: "europa", sans-serif;
+    font-weight: 100;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url(images/BG.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blue {
+    color: #027bff;
+}
+
+.white {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #17191A;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #17191A;
+}
+
+h5 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #17191A;
+}
+
+p {
+    columns: #8f9ea5;
+    opacity: 0.5;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+/*-------- Nav --------*/
+
+.nav {
+    width: 80%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.contact-me .nav-icon .nav-image-icon {
+    flex: 1;
+}
+
+.nav-icon {
+    text-align: right;
+    width: 95%;
+}
+
+.nav-icon a, .contact-me a, .contact-me img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-icon a {
+    margin-left: 40px;
+}
+
+.contact-me a {
+    font-size: 20px;
+    font-weight: 800;
+    color: #027bff;
+    text-decoration: none;
+}
+
+
+/*-------- Landing --------*/
+.landing-page {
+    width: 80%;
+    margin:  0 auto;
+    height: 70vh;
+    position: relative;
+}
+
+.landing-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.landing-section-left {
+    margin-top: 4em;
+}
+
+.face-image {
+    margin-top: -100px;
+    width: 500px;
+
+}
+
+/*-------- About --------*/
+
+.about-me  {
+    text-align: center;
+    height: 50vh;
+    background: #027bff;
+}
+
+.about-me h2 {
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.about-me p {
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+/*-------- Skills --------*/
+
+.skills {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 20em;
+}
+
+.skills p {
+    margin-bottom: 30px;
+}
+
+.skills img {
+    width: 40px;
+    margin: 0 15px;
+}
+
+/*-------- Work --------*/
+
+.work {
+    background-color: #027bff;
+    padding-bottom: 2px;
+}
+
+
+/*-------- Work 01 --------*/
+
+.work-one {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.work-one h1 {
+    text-align: center;
+    margin-top: -10%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+
+}
+
+.work-one > .work-text {
+    position: absolute;
+    top: 85;
+}
+
+.work-one > .work-text > .underline {
+    display: block;
+    background-color: #ffffff;
+    height: 3px;
+    width: 130px;
+    margin-top: 5px;
+}
+
+.work-one > .work-image {
+    width: 80%;
+    float: right;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23, 30, 36, 0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23, 30, 36, 0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23, 30, 36, 0.06);
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.work-one ul {
+    position: absolute;
+    top:50;
+    bottom: 0;
+    right: 83%;
+}
+
+.work-one ul li {
+    margin-top: 20px;
+}
+
+/*-------- Work 02 --------*/
+
+.work-two {
+    width: 80%;
+    margin: 5% auto;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.work-two > .work-text {
+    position: absolute;
+    top: 85;
+    right: 0;
+    text-align: right;
+}
+
+.work-two > .work-text > .underline {
+    display: block;
+    background-color: #ffffff;
+    height: 3px;
+    width: 135px;
+    margin-top: 5px;
+    float: right;
+}
+
+.work-two > .work-image {
+    width: 80%;
+    float: left;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23, 30, 36, 0.06);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23, 30, 36, 0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23, 30, 36, 0.06);
+    margin-top: 9%;
+    border-radius: 10px;
+}
+
+.work-two ul {
+    position: absolute;
+    top:50;
+    bottom: 0;
+    left: 83%;
+}
+
+.work-two ul li {
+    margin-top: 20px;
+}
+
+
+/*-------- Work 01 and 02 --------*/
+.work-one a, .work-two a {
+    text-decoration: none;
+    color: #17191A;
+}
+
+
+
+/*-------- Footer --------*/
+
+.footer {
+    background-image: url(images/Dribble_Blue_Large.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 320px;
+    margin-top: 50px;
+    padding-bottom: 7em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
